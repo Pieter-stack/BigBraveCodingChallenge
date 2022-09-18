@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+<h1 align="center">
+BigBrave Coding Challenge
+Character Builder
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  <a href="https://bigbravechallenge.web.app/">View the web app hosted on Firebase here...</a>
+</h3>
 
-## Available Scripts
+## 🔧 Quick Setup
 
-In the project directory, you can run:
+1.  **To launch the app**
 
-### `npm start`
+    Navigate into your new site’s directory and start it up.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    ```shell
+    cd BigBraveCodingChallenge/
+    npm start
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.  **Open the code and start creating your character!**
 
-### `npm test`
+    The site is now running at http://localhost:3000!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.  **Dependencies & Libraries**
+    
+    - [Firebase](https://firebase.google.com/)
+    - [Anime.js](https://animejs.com/)
+    - [React Color](https://casesandberg.github.io/react-color/)
 
-### `npm run build`
+4.  **Justifications**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Firebase was used to host the site. For the user to view the project without having to download the project and run the code.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I used React Color for the colour swatch interface to give the user a better experience for choosing a colour rather than using the normal colour pallette from the html inputs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I have added some nice animations throughout the project with the help of Anime.js as the library for animations.I also did the text animation with just plain Css and Html to showcase animations without a JS library. I also customized all of the input fields to fit the overall theme of the project.
 
-### `npm run eject`
+I did validation for the form inputs by disabling the next buttons if the inputs are empty and also did age and date validation per brief requirements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I did spend around 9 hours to complete the project including research and designing of the frontend. I also didn't code in react for over a year so I had to refamilliarize myself with React. I went over the time estimate due to all the research I wanted to do extra, to make the project look sleeker and better.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project meets all the brief requirements, I still feel there could be some improvements done on the project to improve the performance and some minor tweaks.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project showcases a little bit of my development skills that I have learned so far and what I am capable of. I look forward to improving my skills and gaining more knowledge in the future. 
